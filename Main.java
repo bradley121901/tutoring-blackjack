@@ -3,6 +3,7 @@ public class Main {
         System.out.println("BlackJack Simulator");
         Game blackjack = new Game();
         System.out.println(Suit.CLUB);
+        System.out.println(Rank.ACE.name + Rank.ACE.value);
     }
     
 }
